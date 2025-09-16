@@ -1,0 +1,32 @@
+body{
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+                       /* NAVIGATION BAR */
+                       /* NAVGATION1 */
+ .navigation1 li a:hover{
+    color: rgb(253, 159, 121);
+    transition-duration: 0.3s;
+    text-decoration: overline 7px;
+ }   
+ 
+ .navigation1{
+    margin-top: -520x;
+ }
+
+
+                    /* NAVIGATION2 */
+.navigation2 .navbar{
+    position: fixed;
+    top: 50px;
+    left: 0;
+    right: 0;
+}
+
+.navigation2 img{
+    width: 150px;
+    height: 30px;
+}
