@@ -1,32 +1,131 @@
-body{
-    max-width: 100%;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  max-width: 100%;
+  padding-top: 120px; /* space for both navbars */
 }
 
-                       /* NAVIGATION BAR */
-                       /* NAVGATION1 */
- .navigation1 li a:hover{
-    color: rgb(253, 159, 121);
-    transition-duration: 0.3s;
-    text-decoration: overline 7px;
- }   
- 
- .navigation1{
-    margin-top: -520x;
- }
-
-
-                    /* NAVIGATION2 */
-.navigation2 .navbar{
-    position: fixed;
-    top: 50px;
-    left: 0;
-    right: 0;
+/* NAVIGATION1 */
+.navigation1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030; 
+  background-color: rgba(242, 235, 235, 0.646);
+  height: 60px;
 }
 
-.navigation2 img{
-    width: 150px;
-    height: 30px;
+.navigation1 .navbar {
+  height: 60px;
+
 }
+
+.navigation1 .container-fluid {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(189, 187, 187, 0.852);
+}
+
+.navigation1 li a:hover {
+  color: rgb(255, 130, 0);
+  transition-duration: 0.2s;
+  text-decoration: overline 4px;
+}
+
+.navigation1 .acc{
+    color:rgb(255, 130, 0);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.navigation1 .ess{
+    color:navy;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.navigation1 .navbar-nav{
+    margin-right: 50px;
+}
+
+
+                        /* NAVIGATION2 */
+.navigation2 {
+  position: fixed;
+  top: 60px; /* directly below navigation1 */
+  left: 0;
+  right: 0;
+  z-index: 1020;
+  background-color: blue;
+  overflow: visible;
+}
+
+.navigation2 .navbar {
+  overflow: visible;
+  min-height: 60px;
+  z-index: 2;
+   background-color: rgba(189, 187, 187, 0.852);
+}
+
+.navigation2 .container-fluid {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.navigation2 img {
+  width: 150px;
+}
+
+.navigation2 a {
+  color: black;
+  font-weight: 100;
+  font-size: 1rem;
+  height: 50px;
+  padding: 14px;
+}
+
+.navigation2 #form input {
+  padding: 10px;
+  width: 150px;
+  font-size: 1rem;
+  border: none;
+  background-color: rgba(168, 168, 168, 0.76);
+}
+
+.navigation2 #form input:focus {
+  outline: 2px solid rgb(255, 130, 0);
+  background-color: white;
+  transition: 0.5s all ease-in-out;
+}
+
+#internent-banking {
+  background-color: rgb(255, 130, 0);
+  padding: 10px;
+  color: white;
+}
+
+.navigation2 li a:hover {
+  background-color: rgba(168, 168, 168, 0.76);
+  transition-duration: 0.2s;
+  border-bottom: 4px solid rgb(255, 130, 0);
+}
+
+.navigation2 li a:active {
+  background-color: rgb(255, 130, 0);
+  transition-duration: 0.2s;
+  text-decoration: underline 4px solid rgb(255, 130, 0);
+}
+
+.navigation2 ul li:nth-of-type(1) {
+  border-bottom: 4px solid rgb(255, 130, 0);
+}
+
+.navigation2 .navbar-collapse {
+  height: auto;
+}
+
+
