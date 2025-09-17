@@ -1,17 +1,53 @@
                                 /* NAVBAR2 RESPONSIVE */
+                                  /* BIG SCREEN */
+@media (min-width: 989px){
+  .navigation2 .navbar-collapse {
+  overflow-y: hidden;
+}
+
+}
+
                             /* TAB */
 
 @media (max-width: 991px) {
   .navigation2 .navbar-collapse {
     background-color: white;
     padding: 1rem;
-    position: absolute;
-    top: 100%;
+    position:fixed;
+    top: 0;
     left: 0;
     right: 0;
     z-index: 1010;
   }
   .navigation2 {
-    overflow: visible;
-  }
+  position: fixed;
+  top: 0; /* directly below navigation1 */
+  left: 0;
+  right: 0;
+  z-index: 1020;
+  background-color: blue;
+  overflow:visible;
 }
+          
+
+.navigation2 .navbar-toggler{
+  position: fixed;
+  top: 75px;
+  right: 0;
+} 
+
+.navigation2 .navbar-collapse {
+  overflow-y: scroll;
+  height: 500px;
+  transition: 0.3s ease-out;
+  padding-bottom: 150px;
+}
+
+.form-internent-bank{
+  display: flex;
+  flex-direction: column;
+}
+}
+
+
+
