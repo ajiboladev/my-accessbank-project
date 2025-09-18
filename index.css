@@ -147,7 +147,7 @@ body {
 
 
                               /* SECTION1  */
-.section1{
+.section1-normal{
   max-width: 100%;
   margin: auto;
   padding: o;
@@ -160,20 +160,20 @@ body {
   overflow:hidden;
 }
 
-.section1 img{
+.section1-normal img{
   height: 98vh;
   max-width: 100%;
   overflow-x: hidden;
 }
 
-.section1 .overlay-container{
+.section1-normal .overlay-container{
   max-width:100%;
   overflow: hidden;
   height: 90vh;
   position: relative;
 }
 
-.section1 .overlay-text {
+.section1-normal .overlay-text {
   position: absolute;
   top: 150px;
   left: 100px;
@@ -183,7 +183,7 @@ body {
   border-radius: 5px;
 }
 
-.section1 .overlay-text h3{
+.section1-normal .overlay-text h3{
    font-family: "Raleway", sans-serif;
    font-weight: 300;
    font-size: 3rem;
@@ -191,17 +191,17 @@ body {
    margin-top: 10px;
 }
 
-.section1 .overlay-text h2{
+.section1-normal .overlay-text h2{
   color: rgb(255, 130, 0);
   font-weight: 850;
 }
 
-.section1 .overlay-text p{
+.section1-normal .overlay-text p{
   color: white;
   font-size: 15px;
 }
 
-.section1 .overlay-text a{
+.section1-normal .overlay-text a{
   background-color: rgb(255, 130, 0);
   color: white;
   border-radius: 0;
