@@ -62,7 +62,7 @@
 
                         /* SECTION1 */
                 /* TAB */
-@media (max-width:979px){
+@media (max-width:980px){
   .section1-tab{
   max-width: 100%;
   margin: auto;
@@ -75,7 +75,17 @@
   height: 60vh;
   max-width: 100%;
   overflow-x: hidden;
+  background-color: red;
 }
+
+.section1-tab #image{
+  height: 70vh;
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
 
 .overlay-container{
   display: flex;
@@ -134,5 +144,17 @@
 .section1-tab .access-more{
   width: 30%;
   margin: auto;
+}
+}
+
+@media (max-width:500px){
+   .section1-tab .text .paragraph{
+  background-color:white;
+  width: 80%;
+  overflow-wrap: break-word;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  line-height: 2rem;
 }
 }
