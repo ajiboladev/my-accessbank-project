@@ -229,7 +229,7 @@
 
                         /* PHONE */
 @media (max-width:500px){
-  .section1-normal img{
+  .section1-tab img{
   height: auto;
   max-width: 100%;
   overflow-x: hidden;
