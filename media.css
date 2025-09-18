@@ -235,4 +235,12 @@
   overflow-x: hidden;
 }
 
+.section1-tab #image{
+  height: 50vh;
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
 }
