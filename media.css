@@ -1,5 +1,24 @@
                                 /* NAVBAR2 RESPONSIVE */
                                   /* BIG SCREEN */
+
+@media (max-width:1348px){
+  .form-internent-bank{
+    display: none;
+  }
+}
+
+@media (max-width:1187px){
+  .country-dropdown{
+    display: none;
+  }
+}
+
+@media (max-width:1053px){
+  .navigation1 .free-money{
+    display: none;
+  }
+}
+
 @media (min-width: 989px){
   .navigation2 .navbar-collapse {
   overflow-y: hidden;
@@ -61,6 +80,54 @@
 }
 
                         /* SECTION1 */
+                    /* BIG SCREEN */
+@media (max-width:1382px){
+  .section1-normal h3{
+   font-family: "Raleway", sans-serif;
+   font-weight: 300;
+   font-size: 1.8rem;
+   word-spacing: 0.5rem;
+   margin-top: 10px;
+  }
+
+  .section1-normal .overlay-text {
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  color: white;
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+}
+
+@media (max-width:1279px){
+  .section1-normal .overlay-text {
+  position: absolute;
+  top: 150px;
+  left: 40px;
+  color: white;
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.section1-normal h3{
+   font-family: "Raleway", sans-serif;
+   font-weight: 300;
+   font-size: 10px;
+   word-spacing: 0;
+   margin-top: 10px;
+   color: rgb(237, 230, 217);
+   overflow-wrap:break-word;
+  }
+
+  .section1-normal .overlay-text p{
+  color: white;
+  font-size: 16px;
+}
+}
+
                 /* TAB */
 @media (max-width:980px){
   .section1-tab{
