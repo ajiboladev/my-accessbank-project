@@ -1,4 +1,4 @@
-# Access Bank Website Replica  
+## Access Bank Website Replication  
 
 This is a personal project created by AJIBOLA to practice HTML, CSS, Bootstrap and responsive design.  
 It is **not affiliated with or endorsed by Access Bank Plc**.
