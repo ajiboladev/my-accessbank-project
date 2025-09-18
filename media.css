@@ -225,3 +225,14 @@
   line-height: 2rem;
 }
 }
+
+
+                        /* PHONE */
+@media (max-width:500px){
+  .section1-normal img{
+  height: auto;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+}
