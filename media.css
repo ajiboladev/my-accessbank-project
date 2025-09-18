@@ -243,4 +243,8 @@
   max-width: 1200px;
 }
 
+.section1-tab .access-more{
+  width: 50%;
+  margin: auto;
+}
 }
