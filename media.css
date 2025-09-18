@@ -49,5 +49,90 @@
 }
 }
 
+                /* PHONE */
+@media (max-width:500px){
+  .navigation2 a {
+  color: black;
+  font-weight: 400;
+  font-size: 1rem;
+  height: 50px;
+  padding: 14px;
+}
+}
 
+                        /* SECTION1 */
+                /* TAB */
+@media (max-width:979px){
+  .section1-tab{
+  max-width: 100%;
+  margin: auto;
+  padding: o;
+  box-sizing: border-box;
+  overflow: hidden;
+}
 
+.section1-tab img{
+  height: 60vh;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.overlay-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.section1-tab{
+  display: block;
+}
+
+.section1-normal{
+  display: none;
+}
+
+.section1-tab .text{
+  width: 100%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.section1-tab .text h3{
+  width: 100%;
+  text-align: center;
+  font-weight: bolder;
+  color: black;
+  font-size:x-large;
+}
+
+.section1-tab .text h2{
+  color: black;
+  font-weight: 800;
+  text-align: center;
+}
+
+.section1-tab .text .paragraph{
+  background-color:white;
+  width: 50%;
+  overflow-wrap: break-word;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.section1-tab .text .paragraph p{
+  color: black;
+  font-weight: 750;
+}
+
+.section1-tab .text a{
+  border-radius: 0;
+  padding: 15px;
+  border: 2px solid;
+}
+
+.section1-tab .access-more{
+  width: 30%;
+  margin: auto;
+}
+}

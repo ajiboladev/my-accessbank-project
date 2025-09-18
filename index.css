@@ -5,6 +5,8 @@ body {
   box-sizing: border-box;
   max-width: 100%;
   padding-top: 120px; /* space for both navbars */
+  overflow-x: hidden;
+  transition: 1s;
 }
 
 /* NAVIGATION1 */
@@ -128,11 +130,10 @@ body {
 }
 
 .navigation2 .navbar-collapse {
-  /* height: 800px; */
   overflow-y: scroll;
   background-color: yellow;
   height: auto;
-  margin-top: 130px;
+  margin-top: 110px;
   padding: 9.9px;
   background-color: white;
 }
@@ -144,29 +145,69 @@ body {
   background-color: rgba(168, 168, 168, 0.76);
 }
 
-.i-am-dropdown{
+
+                              /* SECTION1  */
+.section1{
+  max-width: 100%;
+  margin: auto;
+  padding: o;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.section1parent{
+  max-width: 100%;
+  overflow:hidden;
+}
+
+.section1 img{
+  height: 98vh;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.section1 .overlay-container{
+  max-width:100%;
+  overflow: hidden;
+  height: 90vh;
+  position: relative;
+}
+
+.section1 .overlay-text {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  color: white;
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.section1 .overlay-text h3{
+   font-family: "Raleway", sans-serif;
+   font-weight: 300;
+   font-size: 3rem;
+   word-spacing: 0.5rem;
+   margin-top: 10px;
+}
+
+.section1 .overlay-text h2{
+  color: rgb(255, 130, 0);
+  font-weight: 850;
+}
+
+.section1 .overlay-text p{
+  color: white;
+  font-size: 15px;
+}
+
+.section1 .overlay-text a{
+  background-color: rgb(255, 130, 0);
+  color: white;
+  border-radius: 0;
+  border: none;
+}
+
+.section1-tab{
   display: none;
-}
-
-.navigation2 .navbar-collapse .navbar-nav li:nth-of-type(8):hover .i-am-dropdown{
-  /* display: block; */
-  display: grid; 
-  grid-template-columns: repeat(4, 1fr);
-  gap: 0;
-  width: 200px;
-  margin-top: 500px;
-  overflow-y: hidden;
-  margin-left: -350px;
-  background-color: red;
-
-}
-
-.navigation2 .i-am-dropdown-image{
-  /* width: 350px; */
-}
-
-.navigation2 .i-am-dropdown{
-  /* display: grid; */
-  /* grid-template-columns: repeat(4, 1fr); */
-  /* gap: 0; */
 }
