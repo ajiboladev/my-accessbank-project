@@ -153,6 +153,8 @@ body {
   padding: o;
   box-sizing: border-box;
   overflow: hidden;
+  z-index: 2;
+  position: relative;
 }
 
 .section1parent{
@@ -210,4 +212,228 @@ body {
 
 .section1-tab{
   display: none;
+}
+
+
+
+                        /* SECTION2 */
+  .section2-normal{
+    width: 100%;
+    max-width: 2560px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin-top: -50px;
+    z-index: 5;
+    position: absolute;
+  }
+
+  .section2parent{
+    width: 90%;
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    background-color:#a4c519;
+  }
+
+  .section2-normal .section2parent .section2-card{
+    width: 1000px;
+    height: 100%;
+    max-height: 180px;
+    box-sizing: border-box;
+    background-color:#a4c519;
+    border-right: 1px solid white;
+    transition: border-bottom, box-shadow 0.6s;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.05);
+    padding: 2rem;
+    cursor: pointer;
+    color:black;
+  }
+
+  .section2-normal .section2parent .section2-card:nth-of-type(4){
+    border: none;
+  }
+
+  .section2-normal .section2parent .section2-card h3{
+    font-weight: 600;
+    font-size: large;
+    padding-top:10px;
+  }
+
+  .section2-normal .section2parent .section2-card p{
+    font-weight: 600;
+    font-size: 15px;
+    color: #333;
+    padding-bottom: 2.0rem;
+  }
+
+  .section2-normal .section2parent .section2-card:hover{
+    border-bottom: 6px solid white;
+    transition: 0.4s;
+    transition-timing-function: ease-in-out;
+  }
+
+  .section2-tab{
+    display: none;
+  }
+
+
+  
+                        /* SECTION3*/
+.section3{
+  width: 100%;
+  max-width: 2560px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: 180px;
+  overflow-x: hidden;
+}
+
+.section3 .section3parent{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content:end;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.section3 > .marquee marquee{
+  background-color:antiquewhite;
+  padding: 10px;
+  font-size: 1rem;
+  color: #333;
+  font-weight: 500;
+  text-transform: uppercase;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.section3 .marquee marquee{
+  background-color:antiquewhite;
+  padding: 10px;
+  font-size: 1rem;
+  color: #444;
+  font-weight: 500;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.section3 .latest-news p{
+  color: #444;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.section3 .latest-news{
+  padding-right: 15px;
+  padding-top: 12px;
+  padding-left: 30px;
+  background-color: white;
+  box-shadow: 1px 0px 3px 0px rgba(196, 193, 193, 0.651);
+}
+
+.section3 .col-4, .col-3, .col-2, .col-2, .col-1{
+  height: 7px;
+}
+
+.section3 .row{
+  margin-top: -7px;
+}
+
+.section3 .col-4{
+  background-color: rgb(1, 1, 79);
+}
+
+.section3 .col-3{
+  background-color: rgb(160, 6, 6);
+}
+
+.section3 .col3{
+  background-color:#a4c519;
+}
+
+.section3 .col4{
+  background-color: rgb(255, 130, 0);
+}
+
+.section3 .col-1{
+  background-color: rgb(1, 88, 1);
+}
+
+
+                      /* SECTION4 */
+.section4{
+  width: 100%;
+  max-width: 2560px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 80px 0px 0px 0px;
+  overflow-x: hidden;
+}
+
+.section4parent{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section4 h3{
+  color: #333;
+  font-weight: 50;
+  margin-bottom: 15px;
+}
+
+.section4 h3 strong{
+  font-weight: 800;
+  color: black;
+}
+
+.section4 p{
+  color: black;
+  font-weight: 100;
+  font-size: 16px;
+}
+
+
+
+                          /* SECTION5 */
+.section5-normal{
+  width: 100%;
+  max-width: 2560;
+  margin: 0;
+  padding: 0;
+  /* background-color: green; */
+}   
+
+.section5-tab{
+  display: none;
+}
+
+.section5-normal .card .access-more-img{
+  display: none;
+}
+
+.section5-normal .card{
+  padding: 2rem;
+  border: navajowhite;
+  transition: 0.8s;
+  transition-delay: 0.1s;
+}
+
+.section5-normal .card .access-more-text{
+  padding-top: 30px;
+}
+
+.section5-normal .card:hover{
+  background-color: rgba(190, 185, 185, 0.683);
+  transform: scale(1.1);
+  margin-top: -20px;
+  box-shadow: 0px 0px 15px 5px rgb(255, 130, 0);
 }
