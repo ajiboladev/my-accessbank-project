@@ -374,7 +374,7 @@ body {
   max-width: 2560px;
   box-sizing: border-box;
   margin: 0;
-  padding: 80px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
   overflow-x: hidden;
 }
 
@@ -406,10 +406,9 @@ body {
                           /* SECTION5 */
 .section5-normal{
   width: 100%;
-  max-width: 2560;
+  max-width: 2560px;
   margin: 0;
-  padding: 0;
-  /* background-color: green; */
+  padding: 50px 0px 0px 0px;
 }   
 
 .section5-tab{
@@ -433,7 +432,141 @@ body {
 
 .section5-normal .card:hover{
   background-color: rgba(190, 185, 185, 0.683);
-  transform: scale(1.1);
-  margin-top: -20px;
+  transform: scale(1.05);
+  margin-top: -15px;
   box-shadow: 0px 0px 15px 5px rgb(255, 130, 0);
+}
+
+#background5-4{
+  padding: 70px 70px 300px 70px;
+  border-bottom-left-radius:15%;
+  border-bottom-right-radius: 25%;
+  background:linear-gradient(rgba(146, 143, 143, 0.228) 95%) ;
+  position: relative;
+  z-index: 1;
+}
+
+/* .slanted-box {
+  width: 300px;
+  height: 150px;
+  background-color: #ffc107;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+  color: #000;
+  padding: 20px;
+}
+
+
+.cut-box {
+  position: relative;
+  width: 300px;
+  height: 150px;
+  background-color: #ffc107;
+  overflow: hidden;
+  color: #000;
+  padding: 20px;
+}
+
+.cut-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100%;
+  transform: skewX(20deg);
+} */
+
+                                    /* SECTION6 & 7*/
+.section6-7{
+  width: 100%;
+  max-width: 2560px;
+  padding: 0;
+  margin-top: -220px;
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 5;
+  /* background-color: red; */
+}
+
+.section6_7{
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+                    /* SECTION6 */
+.section6{
+  background-color: rgb(255, 130, 0);
+  width: 75%;
+  height: 445px;
+  color: white;
+  display:flex;
+}           
+
+.section6 .section6parent1{
+  width: 50%;
+  height: auto;
+  padding: 20px;
+  overflow-wrap: break-word;
+  padding: 40px 30px 0px 30px;
+}
+
+.section6 .div1{
+   border-right: 2px solid white;
+   padding: 50px 0px 50px 0px;
+}
+
+.section6 h2{
+  margin-bottom: 15px;
+}
+
+.section6 .p1{
+    line-height: 2rem;
+    font-size: 15px;
+}
+
+.section6 .p2{
+  background-color: rgba(128, 128, 128, 0.436);
+  padding: 5px;
+  margin-top: 25px;
+}
+
+.section6 .p2 span{
+  font-size: 1.5rem;
+  background:transparent;
+  padding-right: 10px;
+}
+
+.section6 .section6parent2{
+    padding: 20px;
+    padding: 40px 20px 0px 30px;
+}
+
+.section6 .section6parent2 .money-circle{
+    width: 200px;
+    height: 200px;
+    border: 10px solid rgb(244, 172, 95);
+    border-radius: 50%;
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section6 .section6parent2 .money-circle p{
+  position: absolute;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.section6 .section6parent2 .money-circle .money-dot{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  border:5px solid rgb(255, 130, 0);
+  margin-top: -160px;
+  margin-left: 100px;
 }
