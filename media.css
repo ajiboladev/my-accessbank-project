@@ -408,32 +408,377 @@
   text-align: center;
 }
 
-.section4 p{
+.section4 p, h3{
   color: black;
   font-weight: 100;
   font-size: 14px;
 }
 
  } 
+
+
+                  /* PHONE */
+@media (max-width:500px){
+  .section4 p{
+  color: black;
+  font-weight: 300;
+  font-size: 14px;
+}
+}
  
  
-                  /* SECTION5 */
-              /* TAB */
-/* @media (max-width:980px){
-  .section5-normal{
+                  /* SECTION6*/
+              /* TAB15-4.5, 15-9*/
+  @media (max-width:2580px){
+    .section6-tab, .section7-tab{
+      display: none;
+    }
+  }
+@media (max-width:1290px){
+  .section6-7{
+    display: none;
+  }
+  
+
+  .section6-tab{
+    width:100%;
+    max-width: 1400px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: -210px;
+    position: relative;
+    z-index: 10;
     display: block;
+    background-color: rgba(128, 128, 128, 0.196);
+    padding: 30px 0px 120px;
+    border-bottom-right-radius: 120%;
+    
   }
 
-  .section5-tab{
+  .section6parent-tab{
+    width: 80%;
+    background-color:rgb(255, 130, 0);
+    height: 950px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section6-tab .loan{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 4rem;
+    padding-bottom: 50px;
+    border-bottom: 2px solid white;
+  }
+
+  .section6-tab h2{
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .section6-tab .p1{
+    font-weight: 400;
+    line-height: 2rem;
+  }
+
+  .section6-tab .p2{
+    text-align: start;
+    background-color: rgba(128, 128, 128, 0.29);
+    padding: 5px;
+  }
+
+  .section6-tab span{
+    font-size: 1.3rem;
+    margin-right: 3px;
+  }
+
+  .section6-tab .salary{
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .section6-tab .circle{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 10px solid rgb(244, 172, 95);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section6-tab #p2{
+    font-size: 2.3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-left: -50px;
+  }
+
+  .section6-tab .x-circle{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: -280px;
+    border:4px solid rgb(255, 130, 0);
+    margin-left: -80px;
+  }
+}
+
+
+                    /* PHONE */
+  @media (max-width:500px){
+    .section6-tab .x-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: -170px;
+    border:4px solid rgb(255, 130, 0);
+    margin-left: -80px;
+  }
+
+    .section6-tab .circle{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 10px solid rgb(244, 172, 95);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section6-tab #p2{
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-align: center;
+  }
+  }
+
+                  /* SMALL SCREEN */
+@media (max-width:320px){
+  .section6-tab .salary{
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .section6-tab .circle{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 5px solid rgb(244, 172, 95);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section6-tab #p2{
+    font-size: 1rem;
+    font-weight: 200;
+    text-align: center;
+    margin-left: 20px;
+  }
+
+      .section6-tab .x-circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: -95px;
+    border:4px solid rgb(255, 130, 0);
+    margin-left: -7px;
+  }
+}
+
+
+                      /* SECTION 7 */
+                  /* TAB */
+@media (max-width:1290px){
+  .section7-tab{
     display: block;
-    background-color: red;
     width: 100%;
     max-width: 1400px;
+    margin: -300px 0px 0px;
+    padding: 0;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 30;
   }
 
-  .section5-tab .carousel{
-    width: 80%;
+  .section7parent-tab{
+    clip-path: polygon(0 0, 100% 18%, 100% 100%, 0 100%);
+    width: 50%;
     margin: 0 auto;
-    background-color: green;
+    height: 300px;
+    background-color: rgb(234, 231, 231);
+    box-shadow: -80px 55px 3px 100px black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-} */
+
+  .section7-tab a{
+    border: 2px solid black;
+  }
+
+  .section7-tab #p1{
+    color: black;
+  }
+
+  .section7-tab h1{
+    color: rgb(255, 130, 0);
+    font-weight: 550;
+    font-size: 2.5rem;
+  }
+
+  .section7-tab #p2{
+    color: #666;
+  }
+
+  .section7-tab #p2 strong{
+    color: black;
+  }
+}
+
+
+                  /* TAB2 */
+@media (max-width:768px){
+  .section7-tab #p2{
+    overflow-wrap: break-word;
+    margin-left: 10px;
+    text-align-last: center;
+  }
+}
+
+                  /* PHONE */
+@media (max-width:500px){
+  .section7parent-tab{
+    clip-path: polygon(0 0, 100% 18%, 100% 100%, 0 100%);
+    width: 70%;
+    margin: 0 auto;
+    height: 300px;
+    background-color: rgb(234, 231, 231);
+    box-shadow: -80px 55px 3px 100px black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+
+                  /* SMALL PHONE */
+@media (max-width:320px){
+  .section7parent-tab{
+    clip-path: polygon(0 0, 100% 18%, 100% 100%, 0 100%);
+    width: 75%;
+    margin: 0 auto;
+    height: 300px;
+    background-color: rgb(234, 231, 231);
+    box-shadow: -80px 55px 3px 100px black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+                      /* SECTION8 */
+@media (max-width:1290px){
+  .section8{
+    margin-top: 50px;
+  }
+}
+
+
+
+              /* SECTION9 */
+          /* PHONE */
+@media (max-width:500px){
+  .section9 .card{
+  width: 200px;
+  margin-right: 20px;
+  background: transparent;
+  padding: 20px;
+  flex-shrink: 0;
+  height: 200px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  z-index: 2;
+  overflow-wrap:break-word ;
+}
+
+.section9 #image{
+    width: 200px;
+    height: auto;
+}
+
+.section9 .text-overlay{
+  display: block;
+  background:transparent;
+  color: green;
+  position: absolute;
+  /* margin-bottom: -200px; */
+  text-align-last: center;
+  z-index: 5;
+  background:rgba(255, 255, 255, 0.3);
+  margin-left: -20px;
+  backdrop-filter: blur(30px);
+  transition: 0.8s;
+  width: 190px;
+  height: auto;
+  overflow: scroll;
+}
+
+.section9 .sub{
+  display: block;
+  overflow: scroll;
+}
+
+.section9parent{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  animation: scroll-left 20s linear infinite;
+}
+
+.section9 .t1:hover{
+  margin-bottom: 0px;
+}
+
+.section9 .t2:hover{
+  margin-bottom: 0px;
+}
+
+.section9 .t3:hover{
+    margin-bottom: 0px;
+    transition: 1s;
+}
+
+.section9 .t4:hover{
+  margin-bottom: 0px;
+}
+
+.section9 .t6:hover{
+  margin-bottom: 0px;
+}
+}
