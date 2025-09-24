@@ -421,11 +421,28 @@
 @media (max-width:500px){
   .section4 p{
   color: black;
-  font-weight: 300;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.section4 h3{
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 17px;
 }
 }
- 
+
+
+                      /* SECTION5 */
+                /* PHONE */
+@media (max-width:500px){
+  .section5-normal .card{
+  padding: 3rem;
+  border: navajowhite;
+  transition: 0.8s;
+  transition-delay: 0.1s;
+}
+} 
  
                   /* SECTION6*/
               /* TAB15-4.5, 15-9*/
@@ -737,7 +754,6 @@
   background:transparent;
   color: green;
   position: absolute;
-  /* margin-bottom: -200px; */
   text-align-last: center;
   z-index: 5;
   background:rgba(255, 255, 255, 0.3);
@@ -905,8 +921,17 @@
 .section10-tab h2{
   color: rgba(0, 0, 0, 0.742);
 }
-}                  
+} 
 
+                  /* section11 */
+                  /* PHONE */
+@media (max-width:500px){
+  .section11 p{
+  font-weight: 350;
+  font-size: 16px;
+  color: black;
+}
+}
 
                         /* SECTION 12 */
                   /* TAB */
@@ -1097,7 +1122,7 @@
     display: block;
     width: 100%;
     max-width: 1200px;
-    background-color: red;
+    /* background-color: red; */
 
   }
 
@@ -1241,6 +1266,11 @@
     border-bottom-left-radius: 15px;
   }
 
+  .for-mobile .feed-back a{
+    text-decoration: none;
+    color: white;
+  }
+
   .for-mobile .go-up{
     background-color:rgb(255, 130, 0);
     width: 40px;
@@ -1269,3 +1299,13 @@
     background-color: rgb(2, 2, 57);
   }
 }
+
+              /* SMALL7 PHONE */
+@media (max-width:400px){
+  #ft-button{
+    position: fixed;
+    right: 0;
+    top: 595px;
+    z-index: 500;
+  }
+}              
