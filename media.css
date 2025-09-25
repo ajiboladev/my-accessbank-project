@@ -1122,7 +1122,6 @@
     display: block;
     width: 100%;
     max-width: 1200px;
-    /* background-color: red; */
 
   }
 
@@ -1139,7 +1138,6 @@
   justify-content: center;
   color: #212529;
   align-items:center;
-  /* margin-right: -800px; */
 }
 
   .section14parent{
