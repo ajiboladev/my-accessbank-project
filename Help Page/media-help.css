@@ -644,10 +644,15 @@
   .section3 .p2{
     width: 20rem;
     padding: 10px 2rem;
+    font-size: 1rem;
   }
 
   .section3 .image{
     width: 4rem;
+  }
+
+  .section3 .p3{
+    font-size: 1rem;
   }
 }
 
