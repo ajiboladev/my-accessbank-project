@@ -1,3 +1,18 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #7b797922;
+    color: #ffffff;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #ffffff;
+    color: #000000;
+  }
+}
+/* BODY */
+
 @media (max-width: 3000px) {
   body {
     overflow-x: hidden;
