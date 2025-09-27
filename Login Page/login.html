@@ -3,9 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login-Page</title>
+    <link rel="icon" href="https://accessbankplc.com/favicon.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="media-login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+                            <!-- HEADER -->
+                        <header>
+                            <h3>Link your <strong>BVN</strong> or <strong>NIN</strong> to your account <span><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" fill="none">
+                                <path fill="#FF8200" d="M22.25 12c0 1.173-1.67 2.058-2.126 3.158-.439 1.062.133 2.874-.73 3.736-.862.863-2.674.291-3.736.73-1.095.455-1.986 2.126-3.158 2.126s-2.063-1.67-3.158-2.126c-1.062-.439-2.874.133-3.736-.73-.863-.862-.291-2.674-.73-3.736C4.421 14.063 2.75 13.172 2.75 12s1.67-2.063 2.126-3.158c.439-1.06-.133-2.874.73-3.736.862-.863 2.675-.291 3.736-.73 1.1-.455 1.986-2.126 3.158-2.126s2.063 1.67 3.158 2.126c1.062.439 2.874-.133 3.736.73.863.862.291 2.674.73 3.736.455 1.1 2.126 1.986 2.126 3.158Z" opacity="0.2"></path>
+                            <path fill="#FF8200" d="M21.674 9.64c-.353-.37-.719-.75-.857-1.085-.127-.307-.134-.815-.142-1.307-.014-.915-.03-1.952-.75-2.673-.72-.72-1.758-.736-2.673-.75-.492-.008-1-.015-1.307-.143-.333-.137-.715-.503-1.084-.856C14.214 2.204 13.479 1.5 12.5 1.5c-.979 0-1.713.704-2.36 1.326-.37.353-.75.719-1.085.857-.305.127-.815.135-1.307.142-.915.014-1.952.03-2.673.75-.72.72-.731 1.758-.75 2.673-.008.492-.015 1-.143 1.307-.137.333-.503.715-.856 1.084C2.704 10.286 2 11.021 2 12c0 .979.704 1.713 1.326 2.36.353.37.719.75.857 1.085.127.307.135.815.142 1.307.014.915.03 1.952.75 2.673.72.72 1.758.736 2.673.75.492.008 1 .015 1.307.142.333.138.715.504 1.084.857.647.622 1.382 1.326 2.361 1.326.979 0 1.713-.704 2.36-1.326.37-.353.75-.719 1.085-.857.307-.127.815-.134 1.307-.142.915-.014 1.952-.03 2.673-.75.72-.72.736-1.758.75-2.673.008-.492.015-1 .142-1.307.138-.333.504-.715.857-1.084C22.296 13.714 23 12.979 23 12c0-.979-.704-1.713-1.326-2.36Zm-1.082 3.683c-.45.469-.915.953-1.161 1.549-.236.571-.247 1.225-.256 1.858-.01.656-.02 1.343-.311 1.634-.292.29-.974.302-1.634.311-.633.01-1.287.02-1.858.256-.596.246-1.08.711-1.55 1.16-.468.45-.947.909-1.322.909-.375 0-.858-.461-1.323-.908-.465-.448-.953-.915-1.549-1.161-.571-.236-1.225-.247-1.858-.256-.656-.01-1.343-.02-1.634-.311-.29-.292-.302-.974-.311-1.634-.01-.633-.02-1.287-.256-1.858-.247-.596-.712-1.08-1.16-1.55-.45-.468-.909-.947-.909-1.322 0-.375.461-.858.908-1.323.448-.465.914-.953 1.161-1.549.236-.571.247-1.225.256-1.858.01-.656.02-1.343.311-1.634.292-.29.974-.302 1.634-.311.633-.01 1.287-.02 1.858-.256.596-.247 1.08-.712 1.55-1.16.468-.45.947-.909 1.322-.909.375 0 .858.461 1.323.908.465.448.953.914 1.549 1.161.571.236 1.225.247 1.858.256.656.01 1.343.02 1.634.311.29.292.302.974.311 1.634.01.633.02 1.287.256 1.858.246.596.711 1.08 1.16 1.55.45.468.909.947.909 1.322 0 .375-.461.858-.908 1.323ZM16.78 9.219a.748.748 0 0 1 0 1.062l-5.25 5.25a.747.747 0 0 1-1.062 0l-2.25-2.25a.75.75 0 1 1 1.062-1.062L11 13.94l4.72-4.72a.749.749 0 0 1 1.06 0Z"></path>
+                            </svg></span></h3>
+                        </header>
+
+
+                        <!-- SECTION1 -->
+                <section class="section1">
+                    <div class="section1parent">
+                        <div class="logo">
+                            <a href="../index.html"><img src="https://www.accessbankplc.com/Content/images/access-lg-logo.png" alt="" loading="lazy" class="img1"></a>
+                        </div>
+
+                        <div class="country">
+                            <img src="https://cdn-icons-png.flaticon.com/128/630/630697.png" alt="" loading="lazy" class="img2"><i class="fa fa-angle-down" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- SECTION2 -->
+                 <section class="section2">
+                    <div class="section2parent">
+                        <div class="form">
+                            <h3>Welcome to Access Internet Banking</h3>
+                            <p class="p1">Sign in with your Internet Banking details or Access More login details. Not registered on Internet Banking or Access More? Click on register to get started</p>
+                            <p class="p2">No account? <a href="">Open savings account</a></p>
+
+                            <form action="" class="form-name">
+                                <label for="">Username</label>
+                                <input type="text" placeholder="Username" required>
+                            </form>
+
+                            <form action="" class="form-password">
+                                <label for="">Password</label>
+                                <input type="password" placeholder="Password" required>
+                            </form>
+                            <a href="" id="a2"><p class="p3">Forgot Username or Password?</p></a>
+                            <a href="" id="a3">Sig in</a>
+                            <p class="p4"><a href="" id="a4">Register on internet banking</a></p>
+                        </div>
+                        
+                        <div class="phone">
+                            <img src="https://ibank.accessbankplc.com/static/images/iphone.png" alt="" loading="lazy" id="image">
+                        </div>
+                    </div>
+                 </section>
+                                    <!-- FOOTER -->
+                            <footer>
+                                <p>@2025 Access Bank PLC. (Licensed by the Central Bank of Nigeria)</p>
+                                <span id="span"><p>developed by abdul-azeez ajibola</p></span>
+                            </footer>
+
+
+   <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script> 
 </body>
 </html>
