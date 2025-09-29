@@ -17,13 +17,12 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1030; 
+  z-index: 1030;
   background-color: rgba(242, 235, 235, 0.646);
 }
 
 .navigation1 .navbar {
   height: 60px;
-
 }
 
 .navigation1 .container-fluid {
@@ -38,28 +37,27 @@ body {
   border-top: 4px solid rgb(255, 130, 0);
 }
 
-.navigation1 .acc{
-    color:rgb(255, 130, 0);
-    font-weight: 700;
-    font-size: 1.5rem;
+.navigation1 .acc {
+  color: rgb(255, 130, 0);
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 
-.navigation1 .ess{
-    color:navy;
-    font-weight: 700;
-    font-size: 1.5rem;
+.navigation1 .ess {
+  color: navy;
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 
-.navigation1 .navbar-nav{
-    margin-right: 50px;
+.navigation1 .navbar-nav {
+  margin-right: 50px;
 }
 
 .navigation1 ul li:nth-of-type(3) {
   border-top: 3px solid rgb(255, 130, 0);
 }
 
-
-                        /* NAVIGATION2 */
+/* NAVIGATION2 */
 .navigation2 {
   position: fixed;
   top: 0; /* directly below navigation1 */
@@ -75,7 +73,7 @@ body {
   overflow: visible;
   min-height: 60px;
   z-index: 2;
-   background-color: rgba(189, 187, 187, 0.852);
+  background-color: rgba(189, 187, 187, 0.852);
 }
 
 .navigation2 .container-fluid {
@@ -140,16 +138,15 @@ body {
   background-color: white;
 }
 
-.form-internent-bank{
+.form-internent-bank {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgba(168, 168, 168, 0.76);
 }
 
-
-                             /* SECTION1  */
-.section1-normal{
+/* SECTION1  */
+.section1-normal {
   width: 100%;
   margin: auto;
   padding: 0;
@@ -160,127 +157,128 @@ body {
   max-width: 2560px;
 }
 
-.section1parent{
+.section1parent {
   max-width: 99%;
-  overflow:hidden;
+  overflow: hidden;
   margin: 0 auto;
 }
 
-.section1-normal img{
-  height:78vh;
+.section1-normal img {
+  height: 78vh;
   max-width: 100%;
   overflow-x: hidden;
   width: 100%;
 }
 
-.section1-normal .col-4, .col-3, .col-2, .col-2, .col-1{
+.section1-normal .col-4,
+.col-3,
+.col-2,
+.col-2,
+.col-1 {
   height: 5px;
 }
 
-.section1-normal .row{
+.section1-normal .row {
   margin-top: -7px;
 }
 
-.section1-normal .col-4{
+.section1-normal .col-4 {
   background-color: rgb(1, 1, 79);
 }
 
-.section1-normal .col-3{
+.section1-normal .col-3 {
   background-color: rgb(160, 6, 6);
 }
 
-.section1-normal .col3{
-  background-color:#a4c519;
+.section1-normal .col3 {
+  background-color: #a4c519;
 }
 
-.section1-normal .col4{
+.section1-normal .col4 {
   background-color: rgb(255, 130, 0);
 }
 
-.section1-normal .col-1{
+.section1-normal .col-1 {
   background-color: rgb(1, 88, 1);
 }
 
-
 /* SECTION2 */
-.section2{
-    width: 100%;
-    max-width: 2560px;
-    margin: -15rem 0px 0px 5rem;
-    padding: 0;
-    box-sizing: border-box;
-    overflow: hidden;
-    position: absolute;
-    z-index: 100;
+.section2 {
+  width: 100%;
+  max-width: 2560px;
+  margin: -15rem 0px 0px 5rem;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: absolute;
+  z-index: 100;
 }
 
-.section2parent{
-    background-color:#a4c519;
-    width: 27%;
-    padding: 1rem 2rem 2rem;
-    margin: 0;
-    color: white;
-    border-top:20px solid rgb(255, 130, 0);
+.section2parent {
+  background-color: #a4c519;
+  width: 27%;
+  padding: 1rem 2rem 2rem;
+  margin: 0;
+  color: white;
+  border-top: 20px solid rgb(255, 130, 0);
 }
 
-.section2 h1{
-    font-weight: 800;
-    color: white;
-    font-size: 2.5rem;
+.section2 h1 {
+  font-weight: 800;
+  color: white;
+  font-size: 2.5rem;
 }
 
-.section2 h3{
-    color: black;
-    padding: 10px 0px;
+.section2 h3 {
+  color: black;
+  padding: 10px 0px;
 }
 
-.section2 p{
-    color: black;
-    font-size: 1rem;
+.section2 p {
+  color: black;
+  font-size: 1rem;
 }
 
-.section2 a{
-    border-radius: 0;
-    border: 2px solid white;
+.section2 a {
+  border-radius: 0;
+  border: 2px solid white;
 }
-
 
 /* SECTION3 */
-.section3{
+.section3 {
   width: 100%;
   max-width: 2560px;
   margin: 7rem 0px;
   padding: 0;
 }
 
-.section3parent{
+.section3parent {
   width: 50%;
   margin: 0 auto;
   text-align: center;
   padding: 0;
 }
 
-.section3 p{
+.section3 p {
   font-size: 1.2rem;
 }
 
-.section3 a{
+.section3 a {
   border: 2px solid rgb(255, 130, 0);
   border-radius: 0;
   color: rgb(255, 130, 0);
   transition: border 1s ease;
 }
 
-.section3 a:hover{
+.section3 a:hover {
   background-color: rgb(255, 130, 0);
   color: black;
   transition: 1s;
-  border:2px solid rgb(255, 130, 0);
+  border: 2px solid rgb(255, 130, 0);
 }
 
-
 /* SECTION4 */
-.section4{
+.section4 {
   width: 100%;
   max-width: 2560px;
   margin: 0;
@@ -289,25 +287,25 @@ body {
   z-index: 2;
 }
 
-.section4parent{
+.section4parent {
   width: 55%;
   margin: 0 auto;
   padding: 0;
 }
 
-.section4 .image{
+.section4 .image {
   width: 100%;
   height: 75vh;
 }
 
-.section4 .card-container{
+.section4 .card-container {
   width: 100%;
   max-width: 2560px;
   margin: 0;
   padding: 0;
 }
 
-.section4 .overlay-card{
+.section4 .overlay-card {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   position: absolute;
@@ -318,9 +316,17 @@ body {
   align-items: center;
 }
 
-.section4 .card{
+.section4 .card {
   background-color: #e0e0e0;
   width: 400px;
-  height: 400px;
+  height: 350px;
   border-radius: 0;
+  padding: 2rem;
+}
+
+.section4 h2{
+  width: 13rem;
+  text-transform: uppercase;
+  line-height: 3rem;
+  font-size: 1.7rem;
 }
