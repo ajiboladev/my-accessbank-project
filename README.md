@@ -7,3 +7,5 @@ It is **not affiliated with or endorsed by Access Bank Plc**.
 This project is a non-commercial, educational clone built from scratch by me.  
 All logos and trademarks belong to their respective owners.  
 No original code or assets from the Access Bank website were copied.
+
+**⚠️This repository contains an educational demo website for learning frontend development. It is not associated with Access Bank.**

@@ -1,0 +1,245 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  max-width: 100%;
+  padding-top: 120px; /* space for both navbars */
+  overflow-x: hidden;
+  transition: 1s;
+  scroll-behavior: smooth;
+  border-radius: 0;
+}
+
+/* NAVIGATION1 */
+.navigation1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030; 
+  background-color: rgba(242, 235, 235, 0.646);
+}
+
+.navigation1 .navbar {
+  height: 60px;
+
+}
+
+.navigation1 .container-fluid {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(189, 187, 187, 0.852);
+}
+
+.navigation1 li a:hover {
+  color: rgb(255, 130, 0);
+  transition-duration: 0.2s;
+  border-top: 4px solid rgb(255, 130, 0);
+}
+
+.navigation1 .acc{
+    color:rgb(255, 130, 0);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.navigation1 .ess{
+    color:navy;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.navigation1 .navbar-nav{
+    margin-right: 50px;
+}
+
+.navigation1 ul li:nth-of-type(3) {
+  border-top: 3px solid rgb(255, 130, 0);
+}
+
+
+                        /* NAVIGATION2 */
+.navigation2 {
+  position: fixed;
+  top: 0; /* directly below navigation1 */
+  left: 0;
+  right: 0;
+  z-index: 1020;
+  background-color: blue;
+  overflow: visible;
+  margin-top: -70px; /* height of navigation1 */
+}
+
+.navigation2 .navbar {
+  overflow: visible;
+  min-height: 60px;
+  z-index: 2;
+   background-color: rgba(189, 187, 187, 0.852);
+}
+
+.navigation2 .container-fluid {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  height: 190px;
+}
+
+.navigation2 img {
+  width: 170px;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.navigation2 a {
+  color: black;
+  font-weight: 100;
+  font-size: 1rem;
+  height: 50px;
+  padding: 14px;
+}
+
+.navigation2 #form input {
+  padding: 25px;
+  width: 160px;
+  font-size: 1rem;
+  border: none;
+  background-color: rgba(189, 187, 187, 0.852);
+}
+
+.navigation2 #form input:focus {
+  outline: 2px solid rgb(255, 130, 0);
+  background-color: white;
+  transition: 0.5s all ease-in-out;
+}
+
+#internent-banking {
+  background-color: rgb(255, 130, 0);
+  padding: 25px;
+  color: white;
+}
+
+.navigation2 li a:hover {
+  background-color: rgba(168, 168, 168, 0.76);
+  transition-duration: 0.2s;
+  border-bottom: 4px solid rgb(255, 130, 0);
+}
+
+.navigation2 li a:active {
+  background-color: rgb(255, 130, 0);
+  transition-duration: 0.2s;
+  text-decoration: underline 4px solid rgb(255, 130, 0);
+}
+
+.navigation2 .navbar-collapse {
+  overflow-y: scroll;
+  background-color: yellow;
+  height: auto;
+  margin-top: 110px;
+  padding: 9.9px;
+  background-color: white;
+}
+
+.form-internent-bank{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(168, 168, 168, 0.76);
+}
+
+
+                             /* SECTION1  */
+.section1-normal{
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  z-index: 2;
+  position: relative;
+  max-width: 2560px;
+}
+
+.section1parent{
+  max-width: 99%;
+  overflow:hidden;
+  margin: 0 auto;
+}
+
+.section1-normal img{
+  height:78vh;
+  max-width: 100%;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.section1-normal .col-4, .col-3, .col-2, .col-2, .col-1{
+  height: 5px;
+}
+
+.section1-normal .row{
+  margin-top: -7px;
+}
+
+.section1-normal .col-4{
+  background-color: rgb(1, 1, 79);
+}
+
+.section1-normal .col-3{
+  background-color: rgb(160, 6, 6);
+}
+
+.section1-normal .col3{
+  background-color:#a4c519;
+}
+
+.section1-normal .col4{
+  background-color: rgb(255, 130, 0);
+}
+
+.section1-normal .col-1{
+  background-color: rgb(1, 88, 1);
+}
+
+
+/* SECTION2 */
+.section2{
+    width: 100%;
+    max-width: 2560px;
+    margin: -15rem 0px 0px 5rem;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+    z-index: 100;
+}
+
+.section2parent{
+    background-color:#a4c519;
+    width: 27%;
+    padding: 1rem 2rem 2rem;
+    margin: 0;
+    color: white;
+    border-top:20px solid rgb(255, 130, 0);
+}
+
+.section2 h1{
+    font-weight: 800;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.section2 h3{
+    color: black;
+    padding: 10px 0px;
+}
+
+.section2 p{
+    color: black;
+    font-size: 1rem;
+}
+
+.section2 a{
+    border-radius: 0;
+    border: 2px solid white;
+}

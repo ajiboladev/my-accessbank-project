@@ -1,0 +1,488 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #ffffff;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #ffffff;
+    color: #000000;
+  }
+}
+
+/* NAVBAR2 RESPONSIVE */
+/* BIG SCREEN */
+
+@media (max-width: 1348px) {
+  .form-internent-bank {
+    display: none;
+  }
+}
+
+@media (max-width: 1187px) {
+  .country-dropdown {
+    display: none;
+  }
+}
+
+@media (max-width: 1053px) {
+  .navigation1 .free-money {
+    display: none;
+  }
+}
+
+@media (min-width: 989px) {
+  .navigation2 .navbar-collapse {
+    overflow-y: hidden;
+  }
+}
+
+/* TAB */
+
+@media (max-width: 991px) {
+  .navigation2 .navbar-collapse {
+    background-color: white;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1010;
+  }
+  .navigation2 {
+    position: fixed;
+    top: 0; /* directly below navigation1 */
+    left: 0;
+    right: 0;
+    z-index: 1020;
+    background-color: blue;
+    overflow: visible;
+  }
+
+  .navigation2 .navbar-toggler {
+    position: fixed;
+    top: 75px;
+    right: 0;
+  }
+
+  .navigation2 .navbar-collapse {
+    overflow-y: scroll;
+    height: 500px;
+    transition: 0.3s ease-out;
+    padding-bottom: 150px;
+  }
+
+  .form-internent-bank {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* PHONE */
+@media (max-width: 500px) {
+  .navigation2 a {
+    color: black;
+    font-weight: 400;
+    font-size: 1rem;
+    height: 50px;
+    padding: 14px;
+  }
+}
+
+
+
+/* SECTION1 */
+@media (min-width:1600px){
+    .section1parent{
+  max-width: 100%;
+  overflow:hidden;
+  margin: 0;
+}
+
+.section1-normal{
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  z-index: 2;
+  position: relative;
+  max-width: 2560px;
+}
+}
+/* TAB */
+@media (max-width: 980px) {
+  .section1-normal{
+    max-width: 100%;
+    margin: auto;
+    padding: o;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .section1-normal img {
+    height: 60vh;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: red;
+  }
+
+  .section1-normal #image {
+    height: 70vh;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+}
+
+/* PHONE */
+@media (max-width: 500px) {
+  .section1-normal img {
+    height: auto;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .section1-normal #image {
+    height: 35vh;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+}
+
+/* SECTION2 */
+@media (min-width:1600px){
+    
+.section2{
+    width: 80%;
+    max-width: 2560px;
+    margin: -15rem 0px 0px 5rem;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+    z-index: 100;
+}
+
+.section2parent{
+    background-color:#a4c519;
+    width: 27%;
+    padding: 1rem 2rem 2rem;
+    margin: 0;
+    color: white;
+    border-top:20px solid rgb(255, 130, 0);
+}
+}
+
+@media (min-width:1390px){
+    
+.section2{
+    width: 90%;
+    max-width: 2560px;
+    margin: -15rem 0px 0px 5rem;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+    z-index: 100;
+}
+
+.section2parent{
+    background-color:#a4c519;
+    width: 30%;
+    padding: 1rem 2rem 2rem;
+    margin: 0;
+    color: white;
+    border-top:20px solid rgb(255, 130, 0);
+}
+}
+
+@media (min-width:1165px){
+    
+.section2{
+    width: 80%;
+    max-width: 2560px;
+    margin: -15rem 0px 0px 5rem;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+    z-index: 100;
+}
+
+.section2parent{
+    background-color:#a4c519;
+    width: 40%;
+    padding: 1rem 2rem 2rem;
+    margin: 0;
+    color: white;
+    border-top:20px solid rgb(255, 130, 0);
+}
+}
+
+@media (max-width:1165px){
+    
+.section2{
+    width: 80%;
+    max-width: 2560px;
+    margin: -15rem 0px 0px 5rem;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+    z-index: 100;
+}
+
+.section2parent{
+    background-color:#a4c519;
+    width: 40%;
+    padding: 1rem 2rem 1rem;
+    margin: 0;
+    color: white;
+    border-top:20px solid rgb(255, 130, 0);
+}
+
+.section2 h1{
+    font-size: 1.8rem;
+}
+
+.section2 h3{
+    font-size: 1.3rem;
+}
+
+.section2 p{
+    font-size: 0.9rem;
+}
+}
+
+@media (max-width:1000px){
+    .section2{
+    width: 80%;
+    max-width: 2560px;
+    margin: -15rem 0px 0px 5rem;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+    z-index: 100;
+}
+
+.section2parent{
+    background-color:#a4c519;
+    width: 40%;
+    padding: 1rem 2rem 1.5rem;
+    margin: 0;
+    color: white;
+    border-top:20px solid rgb(255, 130, 0);
+    height: 280px;
+}
+}
+
+
+@media (max-width:924px){
+    .section2{
+    width: 80%;
+    max-width: 2560px;
+    margin: -15rem 0px 0px 5rem;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+    z-index: 100;
+    height: 270px;
+}
+
+.section2parent{
+    background-color:#a4c519;
+    width: 40%;
+    padding: 1rem 2rem 1rem;
+    margin: 0;
+    color: white;
+    border-top:20px solid rgb(255, 130, 0);
+}
+
+.section2 h1{
+    font-size: 1.4rem;
+}
+
+.section2 h3{
+    font-size: 1.1rem;
+}
+
+.section2 p{
+    font-size: 0.8rem;
+}
+}
+
+
+@media (max-width:756px){
+        .section2{
+    width: 80%;
+    max-width: 2560px;
+    margin: -12rem 0px 0px 5rem;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+    z-index: 100;
+    height: 250px;
+}
+
+.section2parent{
+    background-color:#a4c519;
+    width: 50%;
+    padding: 1rem 2rem 1rem;
+    margin: 0;
+    color: white;
+    border-top:20px solid rgb(255, 130, 0);
+}
+}
+
+
+@media (max-width:649px){
+        .section2{
+    width: 80%;
+    max-width: 2560px;
+    margin: -12rem 0px 0px 5rem;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+    z-index: 100;
+    height: 250px;
+}
+
+.section2parent{
+    background-color:#a4c519;
+    width: 60%;
+    padding: 1rem 2rem 1rem;
+    margin: 0;
+    color: white;
+    border-top:20px solid rgb(255, 130, 0);
+}
+}
+
+
+@media (max-width:541px){
+        .section2{
+    width: 80%;
+    max-width: 2560px;
+    margin: -12rem 0px 0px 5rem;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+    z-index: 100;
+    height: 250px;
+}
+
+.section2parent{
+    background-color:#a4c519;
+    width: 70%;
+    padding: 1rem 2rem 1rem;
+    margin: 0;
+    color: white;
+    border-top:20px solid rgb(255, 130, 0);
+}
+}
+
+@media (max-width:500px){
+     .section2{
+    width: 80%;
+    max-width: 2560px;
+    margin: -8rem 0px 0px 3.5rem;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+    z-index: 100;
+    height: 250px;
+}
+
+.section2parent{
+    background-color:#a4c519;
+    width: 90%;
+    padding: 1rem 2rem 1rem;
+    margin: 0;
+    color: white;
+    border-top:20px solid rgb(255, 130, 0);
+}
+}
+
+
+@media (max-width:407px){
+     .section2{
+    width: 80%;
+    max-width: 2560px;
+    margin: -4rem 0px 0px 2.5rem;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+    z-index: 100;
+    height: 250px;
+}
+
+.section2parent{
+    background-color:#a4c519;
+    width: 100%;
+    padding: 1rem 2rem 1rem;
+    margin: 0;
+    color: white;
+    border-top:20px solid rgb(255, 130, 0);
+}
+}
+
+@media (max-width:325px){
+         .section2{
+    width: 80%;
+    max-width: 2560px;
+    margin: -4rem 0px 0px 2.5rem;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute;
+    z-index: 100;
+    height: 250px;
+}
+
+.section2parent{
+    background-color:#a4c519;
+    width: 100%;
+    padding: 1rem 2rem 1rem;
+    margin: 0;
+    color: white;
+    border-top:20px solid rgb(255, 130, 0);
+}
+
+.section2 h1{
+    font-size: 1.2rem;
+}
+
+.section2 h3{
+    font-size: 1rem;
+}
+
+.section2 p{
+    font-size: 0.8rem;
+}
+}
+
+@media (max-width:303px){
+    .section2 h1{
+    font-size: 1.2rem;
+}
+
+.section2 h3{
+    font-size: 0.9rem;
+}
+
+.section2 p{
+    font-size: 0.7rem;
+}
+}
