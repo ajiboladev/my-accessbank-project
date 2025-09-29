@@ -7,7 +7,7 @@
 
 @media (prefers-color-scheme: light) {
   body {
-    background-color: #ffffff;
+    background-color: #f5f7f8;
     color: #000000;
   }
 }
@@ -434,6 +434,10 @@
 
   .section2 .form .p1 {
     line-height: 1.8rem;
+  }
+
+    .warning{
+    font-size: 0.8rem;
   }
 }
 
