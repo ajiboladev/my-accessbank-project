@@ -324,23 +324,23 @@ body {
   padding: 2rem;
 }
 
-.section4 h2{
+.section4 h2 {
   width: 13rem;
   text-transform: uppercase;
   line-height: 3rem;
   font-size: 1.7rem;
 }
 
-.section4 span{
+.section4 span {
   position: absolute;
   bottom: 0px;
-  left:0px;
+  left: 0px;
   font-size: 1.5rem;
   background-color: #e0e0e0;
   padding: 65px 369px 70px 0px;
   transition: 0.8s ease;
 }
 
-.section4 .card:hover span{
+.section4 .card:hover span {
   background-color: grey;
 }
