@@ -687,6 +687,10 @@
   .section4 h2{
     width: 15rem;
   }
+
+  .section4 .card:hover span{
+  background-color: grey;
+}
 }
 
 @media (max-width: 1290px) {
@@ -722,6 +726,15 @@
   .section4 h2{
     font-size: 1.5rem;
   }
+
+  .section4 span{
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+  font-size: 1.5rem;
+  background-color:  #e0e0e0;
+  padding: 50px 320px 70px 0px;
+}
 }
 
 @media (max-width: 997px) {
@@ -731,6 +744,19 @@
     height: 320px;
     border-radius: 0;
   }
+
+  .section4 p{
+    font-size: 1.1rem;
+  }
+
+  .section4 span{
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+  font-size: 1.5rem;
+  background-color:  #e0e0e0;
+  padding: 30px 290px 70px 0px;
+}
 }
 
 @media (max-width: 940px) {
@@ -744,6 +770,19 @@
   .section4 h2{
     font-size: 1.3rem;
   }
+
+  .section4 p{
+    font-size: 0.9rem;
+  }
+
+  .section4 span{
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+  font-size: 1.5rem;
+  background-color:  #e0e0e0;
+  padding: 18px 270px 60px 0px;
+}
 }
 
 @media (max-width: 896px) {
@@ -763,6 +802,15 @@
     height: 290px;
     border-radius: 0;
   }
+
+  .section4 span{
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+  font-size: 1.5rem;
+  background-color:  #e0e0e0;
+  padding: 10px 260px 60px 0px;
+}
 }
 
 @media (max-width: 820px) {
@@ -786,6 +834,19 @@
     height: 270px;
     border-radius: 0;
   }
+
+  .section4 p{
+    font-size: 0.8rem;
+  }
+
+  .section4 span{
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+  font-size: 1.5rem;
+  background-color:  #e0e0e0;
+  padding: 10px 240px 50px 0px;
+}
 }
 
 @media (max-width:750px){
@@ -806,6 +867,15 @@
     font-size: 1.2rem;
     width: 17rem;
   }
+
+  .section4 span{
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+  font-size: 1.5rem;
+  background-color:  #e0e0e0;
+  padding: 10px 470px 60px 0px;
+}
 }
 
 @media (max-width:700px){
@@ -830,6 +900,15 @@
     height: 250px;
     border-radius: 0;
   }
+
+  .section4 span{
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+  font-size: 1.5rem;
+  background-color:  #e0e0e0;
+  padding: 10px 390px 50px 0px;
+}
 }
 
 
@@ -868,6 +947,15 @@
     height: 240px;
     border-radius: 0;
   }
+
+  .section4 span{
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+  font-size: 1.5rem;
+  background-color:  #e0e0e0;
+  padding: 10px 400px 50px 0px;
+}
 }
 
 @media (max-width: 500px) {
@@ -877,6 +965,20 @@
     margin: -10rem 0px;
     padding: 0;
   }
+
+  .section4 span{
+    bottom: 0px;
+    left: 2px;
+  }
+
+   .section4 span{
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+  font-size: 1.5rem;
+  background-color:  #e0e0e0;
+  padding: 10px 398px 50px 0px;
+}
 }
 
 @media (max-width:483px){
@@ -891,7 +993,17 @@
     width: 400px;
     height: 200px;
     border-radius: 0;
+    padding: 1rem;
   }
+
+   .section4 span{
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+  font-size: 1.5rem;
+  background-color:  #e0e0e0;
+  padding: 10px 368px 50px 0px;
+}
 }
 
 @media (max-width:450px){
@@ -906,7 +1018,17 @@
     width: 380px;
     height: 190px;
     border-radius: 0;
+    padding: 1rem;
   }
+
+  .section4 span{
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+  font-size: 1.5rem;
+  background-color:  #e0e0e0;
+  padding: 10px 350px 50px 0px;
+}
 }
 
 @media (max-width:417px){
@@ -921,7 +1043,17 @@
     width: 350px;
     height: 180px;
     border-radius: 0;
+    padding: 1rem;
   }
+
+.section4 span{
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+  font-size: 1.5rem;
+  background-color:  #e0e0e0;
+  padding: 10px 320px 30px 0px;
+}
 }
 
 @media (max-width:391px){
@@ -936,11 +1068,27 @@
     width: 330px;
     height: 150px;
     border-radius: 0;
+    padding: 1rem;
   }
 
   .section4 h2{
     font-size: 1.1rem;
   }
+
+  .section4 span{
+    font-size: 1.2rem;
+    bottom: 0px;
+    left: 0px;
+  }
+
+  .section4 span{
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+  font-size: 1.2rem;
+  background-color:  #e0e0e0;
+  padding: 10px 305px 20px 0px;
+}
 }
 
 @media (max-width:355px){
@@ -957,6 +1105,19 @@
     border-radius: 0;
     padding: 1rem;
   }
+
+  .section4 p{
+    margin-top: -18px;
+  }
+
+    .section4 span{
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+  font-size: 1.2rem;
+  background-color:  #e0e0e0;
+  padding: 10px 276px 10px 0px;
+}
 }
 
 @media (max-width:324px){
@@ -969,7 +1130,7 @@
   .section4 .card {
     background-color: #e0e0e0;
     width: 280px;
-    height: 120px;
+    height: 140px;
     border-radius: 0;
     padding: 0.7rem;
   }
@@ -977,6 +1138,15 @@
   .section4 h2{
     font-size: 1rem;
   }
+
+      .section4 span{
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+  font-size: 1.2rem;
+  background-color:  #e0e0e0;
+  padding: 10px 256px 10px 0px;
+}
 }
 
 @media (max-width:309px){
@@ -992,4 +1162,13 @@
     height: 110px;
     border-radius: 0;
   }
+
+        .section4 span{
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+  font-size: 1.2rem;
+  background-color:  #e0e0e0;
+  padding: 8px 236px 6px 0px;
+}
 }
