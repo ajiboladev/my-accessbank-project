@@ -412,12 +412,12 @@
     width: 100%;
     max-width: 1200px;
     margin: -8rem 0px 0px 0rem;
-    padding: 0px 0rem 0px 40px;
+    padding: 0px 0rem 10px 40px;
     box-sizing: border-box;
     overflow: hidden;
     position: absolute;
     z-index: 100;
-    height: 250px;
+    height: 260px;
 }
 
 .section2parent{
@@ -441,12 +441,12 @@
     width: 100%;
     max-width: 1200px;
     margin: -4rem 0px 0px 0rem;
-    padding: 0px 0px 0px 2rem;
+    padding: 0px 0px 10px 2rem;
     box-sizing: border-box;
     overflow: hidden;
     position: absolute;
     z-index: 100;
-    height: 250px;
+    height: 260px;
 }
 
 .section2parent{
@@ -468,7 +468,7 @@
     width: 100%;
     max-width: 2560px;
     margin: -4rem 1px 1px 1rem;
-    padding: 0px 0px 0px 0.9rem;
+    padding: 0px 0px 10px 0.9rem;
     box-sizing: border-box;
     overflow: hidden;
     position: absolute;
@@ -482,12 +482,12 @@
     width: 100%;
     max-width: 2560px;
     margin: -4rem 0px 0px 0rem;
-    padding: 0px 0px 0px 0.9rem;
+    padding: 0px 0px 10px 0.9rem;
     box-sizing: border-box;
     overflow: hidden;
     position: absolute;
     z-index: 100;
-    height: 250px;
+    height: 260px;
 }
 
 .section2parent{
@@ -702,11 +702,25 @@
 }
 }
 
-@media (max-width:407px){
+@media (max-width:1290px){
+  .section4 .overlay-card{
+    margin: -8rem 0px 0px 13rem;
+    display: none;
+  }
+}
+
+@media (max-width:550px){
+  .section4 .image{
+  height: auto;
+}
+}
+
+@media (max-width:500px){
   .section4{
   width: 100%;
   max-width: 1200px;
   margin: -10rem 0px;
   padding: 0;
+  display: block;
 }
 }
