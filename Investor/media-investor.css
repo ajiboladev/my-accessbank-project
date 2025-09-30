@@ -1230,15 +1230,16 @@
   }
 }
 
-@media (max-width:391px){
+@media (max-width:394px){
   .section5{
-    margin-top:60rem;
+    margin-top:68rem;
   }
 }
 
-@media (max-width:394px){
+
+@media (max-width:391px){
   .section5{
-    margin-top:58rem;
+    margin-top:60rem;
   }
 }
 
