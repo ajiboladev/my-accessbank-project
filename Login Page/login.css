@@ -212,3 +212,19 @@ footer p {
 footer #span p {
   margin-top: -38px;
 }
+
+.warning {
+  background: #ffcc00;
+  color: #000;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.warning-parent:focus-within .warning {
+  display: none;
+}
+
+.warning-parent i{
+  font-size: 2rem;
+}

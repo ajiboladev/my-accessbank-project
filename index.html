@@ -105,11 +105,20 @@
   </div>
 </header>
 <main>
-  <div style="background:#ffcc00; color:#000; text-align:center; padding:10px; font-weight:bold;" class="warning">
-⚠️ This is a DEMO website created for educational purposes. It is NOT the real Access Bank site. Do not enter real personal information.
-</div>
+<div class="warning-parent">
+  <div class="warning">
+    <p id="warning-text">
+      ⚠️ This is a DEMO website created for educational purposes. It is NOT the real Access Bank site. Do not enter real personal information.
+    </p>
+  </div>
+  <span>
+    <i class="fa fa-times-circle" tabindex="0" aria-hidden="true"></i>
+  </span>
+</div> 
+
+
                                                                           <!-- SECTION1 -->
-                                                                           <section class="section1-normal">
+                                                                           <section class="section1-normal section1-normal-animate1">
                                                                             <div class="section1parent">
                                                                               <div class="overlay-container">
                                                                                   <img src="https://www.accessbankplc.com/access/media/Access-Images-Library/ATM.png?ext=.png" alt="Background Image" />
@@ -122,10 +131,23 @@
                                                                               </div>
 
                                                                             </div>
-                                                                           </section>
+                                                                           </section> 
+                                                                           <!-- <section class="section1-normal section1-normal-animate2">
+                                                                            <div class="section1parent">
+                                                                              <div class="overlay-container">
+                                                                                  <img src="https://www.accessbankplc.com/access/media/Access-Images-Library/industry-specific_1.png?ext=.png" alt="Background Image" />
+                                                                                  <div class="overlay-text">
+                                                                                      <h3>We offer industry specific</h3>
+                                                                                      <h2></h2>banking services with exellence...
+                                                                                      <p>with expert who have related industry experience, you are rest assured that navigating the finanacial complexity of your industry will be easy and convenient. whateveryou needs, we have a professional for you.</p>
+                                                                                      <a href="" class="btn btn-warning">access more</a>
+                                                                                  </div>
+                                                                              </div> 
+
+                                                                            </div></section> -->
 
                                                                                                     <!-- TAB -->
-                                                                           <section class="section1-tab">
+                                                                            <section class="section1-tab section1-tab-animate1">
                                                                             <div class="section1parent">                                                                              <div class="image">
                                                                                     <img src="https://www.accessbankplc.com/access/media/Access-Images-Library/ATM.png?ext=.png" alt="Background Image" id="image"/> 
                                                                                     </div>
@@ -137,6 +159,19 @@
                                                                                   </div>
                                                                               </div> 
                                                                                     </section>
+
+                                                                                    <!-- <section class="section1-tab section1-tab-animate2">
+                                                                            <div class="section1parent">                                                                              <div class="image">
+                                                                                    <img src="https://www.accessbankplc.com/access/media/Access-Images-Library/industry-specific_1.png?ext=.png" alt="Background Image" id="image"/> 
+                                                                                    </div>
+                                                                                  <div class="text">
+                                                                                      <h3>Your ATM Card is for you only.</h3>
+                                                                                      <h2>Protect yourself</h2>
+                                                                                      <div class="paragraph"><p>#Shine YourEye when performing transaction using your cards. Do not allow strangers to use your card. Do not disclose your details to anyone.</p></div>
+                                                                                      <div class="access-more"><a href="" class="btn btn-outline-dark">access more</a></div>
+                                                                                  </div>
+                                                                              </div> 
+                                                                                    </section> -->
 
 
 
@@ -886,8 +921,28 @@
         </div>
       </div>
     </div>
-
   </div>
+  <div class="access-datails">
+      <div class="detailsparent">
+         <div class="number">
+          <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+          <a href="tel:+2347003000000">07003000000,</a>
+          <p>0201 280 2500</p>
+        </div>
+
+        <div class="download">
+        <span><p>Access Mobile Apps</p></span>
+        <span><img src="https://www.accessbankplc.com/getmedia/c8306af5-21d5-459c-b342-aac6dd2671e9/get-it-on-appstore.png?width=95&height=31&ext=.png" alt="" loading="lazy"></span>
+        <span><img src="https://www.accessbankplc.com/getmedia/13d72f04-e02d-4206-9e08-50e9d0a1b0a2/get-it-on-playstore.png?width=106&height=32&ext=.png" alt="" loading="lazy"></span>
+      </div>
+
+      <div class="social">
+        <p>We're social</p>
+        <span><i class="fa fa-twitter-square" aria-hidden="true"></i></span>
+        <span><i class="fa fa-instagram" aria-hidden="true"></i></span>
+      </div>
+      </div>
+    </div>
 
   <!-- Footer Bottom -->
   <div class="d-flex justify-content-end align-items-center mt-4" id="ft-button">
@@ -895,7 +950,6 @@
     <a href="#top" class="text-white fs-4 go-up">↑</a>
   </div>
 </footer>
-
 </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>

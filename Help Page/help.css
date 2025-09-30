@@ -204,3 +204,19 @@ body {
   background-color: #f1f1f1;
   color: black;
 }
+
+.warning {
+  background: #ffcc00;
+  color: #000;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.warning-parent:focus-within .warning {
+  display: none;
+}
+
+.warning-parent i{
+  font-size: 2rem;
+}

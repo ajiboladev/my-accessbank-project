@@ -157,7 +157,55 @@ body {
   z-index: 2;
   position: relative;
 }
+ ANIMATION
+/* .section1-normal-animate1, .section1-normal-animate2, .section1-tab-animate1, .section1-tabanimate2{
+  animation: fadeslide 120s infinite;
+  opacity: 0;
+  position:relative;
+}*/
 
+/* .section1-normal-animate2, .section1-tabanimate2{
+  position: absolute;
+  top: 150px;
+}  */
+
+
+/* DELAY STAGE */
+/* .section1-normal-animate1, .section1-tab-animate1{
+  animation-delay: 1s;
+}
+
+.section1-normal-animate2, .section1-tab-animate2{
+  animation-delay: 3s;
+}
+
+@keyframes fadeslide {
+  0%{opacity:0;}
+  10%{opacity: 1;}
+  40%{opacity: 1;}
+  50%{opacity: 1;}
+  100%{opacity: 0;}
+} */
+
+/* .section1-normal-animate1 {
+  animation: fadeIn 4s ease-in-out forwards;
+}
+
+.section1-normal-animate2 {
+  animation: fadeIn 5s ease-in-out forwards;
+  animation-delay: 5s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+.section1-normal-animate2 p{
+  width: 40rem;
+}  */
+/* SEC1 */
 .section1parent{
   max-width: 100%;
   overflow:hidden;
@@ -1135,4 +1183,46 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.access-details{
+  width: 100%;
+  max-width: 1200px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: orange;
+}
+
+.detailsparent{
+  width: 80%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 2px solid white;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.detailsparent a{
+  text-decoration: none;
+  color: white;
+}
+
+.warning{
+background:#ffcc00;
+ color:#000;
+  text-align:center; 
+  padding:10px; 
+  font-weight:bold;
+}
+
+.warning-parent:focus-within .warning {
+  display: none;
+} 
+
+.warning-parent i{
+  font-size: 2rem;
 }

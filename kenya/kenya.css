@@ -1137,3 +1137,30 @@ body {
   flex-direction: row;
   justify-content: space-around;
 }
+
+.access-details{
+  width: 100%;
+  max-width: 1200px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: orange;
+}
+
+.detailsparent{
+  width: 80%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 2px solid white;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.detailsparent a{
+  text-decoration: none;
+  color: white;
+}
+
