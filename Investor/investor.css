@@ -57,6 +57,10 @@ body {
   border-top: 3px solid rgb(255, 130, 0);
 }
 
+.navigation1 .country-dropdown li:nth-of-type(3){
+  border: none;
+}
+
 /* NAVIGATION2 */
 .navigation2 {
   position: fixed;
