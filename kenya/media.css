@@ -1,9 +1,9 @@
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #121212;
+    background-color: #12121263;
     color: #ffffff;
   }
-}
+} 
 
 @media (prefers-color-scheme: light) {
   body {
@@ -1282,7 +1282,7 @@
     background-color: rgb(2, 2, 57);
   }
 
-  .warning {
+  .warning{
     font-size: 0.8rem;
   }
 }
