@@ -10,6 +10,10 @@
     background-color: #f5f7f8;
     color: #000000;
   }
+
+  .section5{
+    background-color: #f5f7f8;
+  }
 }
 
 /* NAVBAR2 RESPONSIVE */
@@ -1167,5 +1171,79 @@
     font-size: 1.2rem;
     background-color: #e0e0e0;
     padding: 8px 236px 6px 0px;
+  }
+}
+
+
+/* .section5 */
+@media (max-width:1000px){
+  .section5{
+    margin-top:40rem;
+  }
+}
+
+@media (max-width:891px){
+  .section5{
+    margin-top:35rem;
+  }
+}
+
+@media (max-width:799px){
+  .section5{
+    margin-top:30rem;
+  }
+}
+
+@media (max-width:751px){
+  .section5{
+    margin-top:80rem;
+  }
+}
+
+@media (max-width:641px){
+  .section5{
+    margin-top:70rem;
+  }
+}
+
+@media (max-width:525px){
+  .section5{
+    margin-top:75rem;
+  }
+}
+
+@media (max-width:501px){
+  .section5{
+    margin-top:85rem;
+  }
+}
+
+@media (max-width:483px){
+  .section5{
+    margin-top:73rem;
+  }
+}
+
+@media (max-width:417px){
+  .section5{
+    margin-top:70rem;
+  }
+}
+
+@media (max-width:391px){
+  .section5{
+    margin-top:60rem;
+  }
+}
+
+@media (max-width:394px){
+  .section5{
+    margin-top:58rem;
+  }
+}
+
+@media (max-width:309px){
+  .section5{
+    margin-top:50rem;
   }
 }

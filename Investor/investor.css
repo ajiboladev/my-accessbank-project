@@ -344,3 +344,21 @@ body {
 .section4 .card:hover span {
   background-color: grey;
 }
+
+
+/* SECTION5 */
+.section5{
+  width: 100%;
+  max-width: 2560px;
+  margin: 45rem 0px ;
+  padding: 0;
+}
+
+.section5parent{
+  width: 75%;
+  margin: 0 auto;
+}
+
+.section5 .image{
+  width: 100%;
+}
