@@ -37,6 +37,13 @@
   }
 }
 
+@media (max-width: 992px) {
+  .country-dropdown {
+    display: block;
+  }
+}
+
+
 @media (min-width: 989px) {
   .navigation2 .navbar-collapse {
     overflow-y: hidden;
