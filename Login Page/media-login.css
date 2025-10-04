@@ -29,7 +29,7 @@
   }
 
   .section2 .phone {
-    top: 100px;
+    top: 150px;
     overflow-x: hidden;
     width: 30%;
     right: 0;
@@ -78,6 +78,10 @@
   .section2 .form .p1 {
     line-height: 1.5rem;
   }
+
+  .section2 .phone {
+    top: 150px;
+  }
 }
 
 @media (max-width: 1345px) {
@@ -98,7 +102,7 @@
   }
 
   .section2 .phone #image {
-    width: 23rem;
+    width: 20rem;
   }
 
   .section2 .form .p1 {
@@ -127,6 +131,10 @@
   .section2 .form .p1 {
     line-height: 1.5rem;
   }
+
+    .section2 .phone #image {
+    width: 20rem;
+  }
 }
 
 @media (max-width: 1105px) {
@@ -145,13 +153,30 @@
 
 @media (max-width: 1000px) {
   .section2 .phone #image {
-    width: 18rem;
+    width: 15rem;
+  }
+
+  .section2 .phone{
+    top: 180px;
   }
 
   .section2 .form .p1 {
     line-height: 1.5rem;
   }
 }
+
+@media (max-width: 980px) {
+  .section1parent {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+
+  .section2 .form .p1 {
+    line-height: 1.8rem;
+  }
+}
+
 
 @media (max-width: 947px) {
   .section2 .form {
@@ -165,18 +190,6 @@
     font-size: 0.9rem;
     padding-right: 4px;
     width: 25rem;
-  }
-}
-
-@media (max-width: 980px) {
-  .section1parent {
-    display: flex;
-    justify-content: space-between;
-    width: 70%;
-  }
-
-  .section2 .form .p1 {
-    line-height: 1.8rem;
   }
 }
 
