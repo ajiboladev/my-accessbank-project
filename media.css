@@ -152,6 +152,7 @@
     opacity: 1;
     animation: none;
   }  */
+    
   .section1-tab {
     max-width: 100%;
     margin: auto;
@@ -253,6 +254,11 @@
     max-width: 100%;
     overflow-x: hidden;
   }
+
+  .section1-tab-animate2{
+      position: absolute;
+      top: 120px;
+    }
 
   .section1-tab #image {
     height: 35vh;

@@ -157,21 +157,21 @@ body {
   z-index: 2;
   position: relative;
 }
- ANIMATION
-/* .section1-normal-animate1, .section1-normal-animate2, .section1-tab-animate1, .section1-tabanimate2{
-  animation: fadeslide 120s infinite;
+ /* ANIMATION */
+ .section1-normal-animate1, .section1-normal-animate2, .section1-tab-animate1, .section1-tabanimate2{
+  animation: fadeslide 10s infinite;
   opacity: 0;
-  position:relative;
-}*/
+  /* position:relative; */
+}
 
-/* .section1-normal-animate2, .section1-tabanimate2{
+ .section1-normal-animate2, .section1-tab-animate2{
   position: absolute;
-  top: 150px;
-}  */
+  top: 180px;
+}  
 
 
 /* DELAY STAGE */
-/* .section1-normal-animate1, .section1-tab-animate1{
+ .section1-normal-animate1, .section1-tab-animate1{
   animation-delay: 1s;
 }
 
@@ -185,9 +185,9 @@ body {
   40%{opacity: 1;}
   50%{opacity: 1;}
   100%{opacity: 0;}
-} */
+} 
 
-/* .section1-normal-animate1 {
+.section1-normal-animate1 {
   animation: fadeIn 4s ease-in-out forwards;
 }
 
@@ -204,7 +204,7 @@ body {
 
 .section1-normal-animate2 p{
   width: 40rem;
-}  */
+}  
 /* SEC1 */
 .section1parent{
   max-width: 100%;
